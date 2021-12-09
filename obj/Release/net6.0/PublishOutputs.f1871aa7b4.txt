@@ -1,0 +1,5 @@
+D:\_FOR_SSD\_DEV\VS\Projects\ZDSProjekt\bin\publish\ZDSProjekt.exe
+D:\_FOR_SSD\_DEV\VS\Projects\ZDSProjekt\bin\publish\ZDSProjekt.dll
+D:\_FOR_SSD\_DEV\VS\Projects\ZDSProjekt\bin\publish\ZDSProjekt.deps.json
+D:\_FOR_SSD\_DEV\VS\Projects\ZDSProjekt\bin\publish\ZDSProjekt.runtimeconfig.json
+D:\_FOR_SSD\_DEV\VS\Projects\ZDSProjekt\bin\publish\ZDSProjekt.pdb

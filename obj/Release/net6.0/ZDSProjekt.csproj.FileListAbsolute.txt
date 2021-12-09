@@ -1,0 +1,15 @@
+D:\_FOR_SSD\_DEV\VS\Projects\ZDSProjekt\bin\Release\net6.0\ZDSProjekt.exe
+D:\_FOR_SSD\_DEV\VS\Projects\ZDSProjekt\bin\Release\net6.0\ZDSProjekt.deps.json
+D:\_FOR_SSD\_DEV\VS\Projects\ZDSProjekt\bin\Release\net6.0\ZDSProjekt.runtimeconfig.json
+D:\_FOR_SSD\_DEV\VS\Projects\ZDSProjekt\bin\Release\net6.0\ZDSProjekt.dll
+D:\_FOR_SSD\_DEV\VS\Projects\ZDSProjekt\bin\Release\net6.0\ref\ZDSProjekt.dll
+D:\_FOR_SSD\_DEV\VS\Projects\ZDSProjekt\bin\Release\net6.0\ZDSProjekt.pdb
+D:\_FOR_SSD\_DEV\VS\Projects\ZDSProjekt\obj\Release\net6.0\ZDSProjekt.csproj.AssemblyReference.cache
+D:\_FOR_SSD\_DEV\VS\Projects\ZDSProjekt\obj\Release\net6.0\ZDSProjekt.GeneratedMSBuildEditorConfig.editorconfig
+D:\_FOR_SSD\_DEV\VS\Projects\ZDSProjekt\obj\Release\net6.0\ZDSProjekt.AssemblyInfoInputs.cache
+D:\_FOR_SSD\_DEV\VS\Projects\ZDSProjekt\obj\Release\net6.0\ZDSProjekt.AssemblyInfo.cs
+D:\_FOR_SSD\_DEV\VS\Projects\ZDSProjekt\obj\Release\net6.0\ZDSProjekt.csproj.CoreCompileInputs.cache
+D:\_FOR_SSD\_DEV\VS\Projects\ZDSProjekt\obj\Release\net6.0\ZDSProjekt.dll
+D:\_FOR_SSD\_DEV\VS\Projects\ZDSProjekt\obj\Release\net6.0\ref\ZDSProjekt.dll
+D:\_FOR_SSD\_DEV\VS\Projects\ZDSProjekt\obj\Release\net6.0\ZDSProjekt.pdb
+D:\_FOR_SSD\_DEV\VS\Projects\ZDSProjekt\obj\Release\net6.0\ZDSProjekt.genruntimeconfig.cache

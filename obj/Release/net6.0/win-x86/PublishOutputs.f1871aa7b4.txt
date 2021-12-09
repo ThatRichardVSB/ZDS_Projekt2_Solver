@@ -1,0 +1,2 @@
+D:\_FOR_SSD\_DEV\VS\Projects\ZDSProjekt\bin\publish\ZDSProjekt.pdb
+D:\_FOR_SSD\_DEV\VS\Projects\ZDSProjekt\bin\publish\ZDSProjekt.exe
