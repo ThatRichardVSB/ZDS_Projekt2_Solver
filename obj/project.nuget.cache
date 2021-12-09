@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ElPU6vr8GuJPXMtSeN7daO1EcPoVP5adSDZHDwcQvJE9g8nZnyDksPL+oEIDw49YfblmkyXY5/6i/UIacOVSOA==",
+  "dgSpecHash": "Ys0oCSE4o0P1sKp2BTv+hfvGk8UHOVWaXbgBvyktalYUKh1z5HeLGt1g2F8h4qAUwfcDDGDo1Jd/EPO3yTWgog==",
   "success": true,
-  "projectFilePath": "D:\\_FOR_SSD\\_DEV\\VS\\Projects\\ZDSProjekt\\ZDSProjekt.csproj",
+  "projectFilePath": "D:\\_FOR_SSD\\_DEV\\_VSB\\1_SEM\\ZDS_Projekt2_Solver\\ZDS_Projekt2_Solver.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\risa4\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",
     "C:\\Users\\risa4\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",

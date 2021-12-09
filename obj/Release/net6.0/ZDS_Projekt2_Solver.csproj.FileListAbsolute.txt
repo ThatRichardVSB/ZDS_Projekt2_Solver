@@ -1,0 +1,15 @@
+D:\_FOR_SSD\_DEV\_VSB\1_SEM\ZDS_Projekt2_Solver\bin\Release\net6.0\ZDS_Projekt2_Solver.exe
+D:\_FOR_SSD\_DEV\_VSB\1_SEM\ZDS_Projekt2_Solver\bin\Release\net6.0\ZDS_Projekt2_Solver.deps.json
+D:\_FOR_SSD\_DEV\_VSB\1_SEM\ZDS_Projekt2_Solver\bin\Release\net6.0\ZDS_Projekt2_Solver.runtimeconfig.json
+D:\_FOR_SSD\_DEV\_VSB\1_SEM\ZDS_Projekt2_Solver\bin\Release\net6.0\ZDS_Projekt2_Solver.dll
+D:\_FOR_SSD\_DEV\_VSB\1_SEM\ZDS_Projekt2_Solver\bin\Release\net6.0\ref\ZDS_Projekt2_Solver.dll
+D:\_FOR_SSD\_DEV\_VSB\1_SEM\ZDS_Projekt2_Solver\bin\Release\net6.0\ZDS_Projekt2_Solver.pdb
+D:\_FOR_SSD\_DEV\_VSB\1_SEM\ZDS_Projekt2_Solver\obj\Release\net6.0\ZDS_Projekt2_Solver.csproj.AssemblyReference.cache
+D:\_FOR_SSD\_DEV\_VSB\1_SEM\ZDS_Projekt2_Solver\obj\Release\net6.0\ZDS_Projekt2_Solver.GeneratedMSBuildEditorConfig.editorconfig
+D:\_FOR_SSD\_DEV\_VSB\1_SEM\ZDS_Projekt2_Solver\obj\Release\net6.0\ZDS_Projekt2_Solver.AssemblyInfoInputs.cache
+D:\_FOR_SSD\_DEV\_VSB\1_SEM\ZDS_Projekt2_Solver\obj\Release\net6.0\ZDS_Projekt2_Solver.AssemblyInfo.cs
+D:\_FOR_SSD\_DEV\_VSB\1_SEM\ZDS_Projekt2_Solver\obj\Release\net6.0\ZDS_Projekt2_Solver.csproj.CoreCompileInputs.cache
+D:\_FOR_SSD\_DEV\_VSB\1_SEM\ZDS_Projekt2_Solver\obj\Release\net6.0\ZDS_Projekt2_Solver.dll
+D:\_FOR_SSD\_DEV\_VSB\1_SEM\ZDS_Projekt2_Solver\obj\Release\net6.0\ref\ZDS_Projekt2_Solver.dll
+D:\_FOR_SSD\_DEV\_VSB\1_SEM\ZDS_Projekt2_Solver\obj\Release\net6.0\ZDS_Projekt2_Solver.pdb
+D:\_FOR_SSD\_DEV\_VSB\1_SEM\ZDS_Projekt2_Solver\obj\Release\net6.0\ZDS_Projekt2_Solver.genruntimeconfig.cache

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\_FOR_SSD\\_DEV\\VS\\Projects\\ZDSProjekt\\ZDSProjekt.csproj": {}
+    "D:\\_FOR_SSD\\_DEV\\_VSB\\1_SEM\\ZDS_Projekt2_Solver\\ZDSProjekt.csproj": {}
   },
   "projects": {
-    "D:\\_FOR_SSD\\_DEV\\VS\\Projects\\ZDSProjekt\\ZDSProjekt.csproj": {
+    "D:\\_FOR_SSD\\_DEV\\_VSB\\1_SEM\\ZDS_Projekt2_Solver\\ZDSProjekt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\_FOR_SSD\\_DEV\\VS\\Projects\\ZDSProjekt\\ZDSProjekt.csproj",
+        "projectUniqueName": "D:\\_FOR_SSD\\_DEV\\_VSB\\1_SEM\\ZDS_Projekt2_Solver\\ZDSProjekt.csproj",
         "projectName": "ZDSProjekt",
-        "projectPath": "D:\\_FOR_SSD\\_DEV\\VS\\Projects\\ZDSProjekt\\ZDSProjekt.csproj",
+        "projectPath": "D:\\_FOR_SSD\\_DEV\\_VSB\\1_SEM\\ZDS_Projekt2_Solver\\ZDSProjekt.csproj",
         "packagesPath": "C:\\Users\\risa4\\.nuget\\packages\\",
-        "outputPath": "D:\\_FOR_SSD\\_DEV\\VS\\Projects\\ZDSProjekt\\obj\\",
+        "outputPath": "D:\\_FOR_SSD\\_DEV\\_VSB\\1_SEM\\ZDS_Projekt2_Solver\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

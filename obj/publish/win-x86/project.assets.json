@@ -262,11 +262,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\_FOR_SSD\\_DEV\\VS\\Projects\\ZDSProjekt\\ZDSProjekt.csproj",
-      "projectName": "ZDSProjekt",
-      "projectPath": "D:\\_FOR_SSD\\_DEV\\VS\\Projects\\ZDSProjekt\\ZDSProjekt.csproj",
+      "projectUniqueName": "D:\\_FOR_SSD\\_DEV\\_VSB\\1_SEM\\ZDS_Projekt2_Solver\\ZDS_Projekt2_Solver.csproj",
+      "projectName": "ZDS_Projekt2_Solver",
+      "projectPath": "D:\\_FOR_SSD\\_DEV\\_VSB\\1_SEM\\ZDS_Projekt2_Solver\\ZDS_Projekt2_Solver.csproj",
       "packagesPath": "C:\\Users\\risa4\\.nuget\\packages\\",
-      "outputPath": "D:\\_FOR_SSD\\_DEV\\VS\\Projects\\ZDSProjekt\\obj\\publish\\win-x86\\",
+      "outputPath": "D:\\_FOR_SSD\\_DEV\\_VSB\\1_SEM\\ZDS_Projekt2_Solver\\obj\\publish\\win-x86\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,0 +1,2 @@
+D:\_FOR_SSD\_DEV\_VSB\1_SEM\ZDS_Projekt2_Solver\bin\publish\ZDS_Projekt2_Solver.pdb
+D:\_FOR_SSD\_DEV\_VSB\1_SEM\ZDS_Projekt2_Solver\bin\publish\ZDS_Projekt2_Solver.exe
