@@ -6,69 +6,39 @@ using System.Runtime;
 
 namespace ZDS_Projekt2_Solver {
     public class Program {
+        static double number1, number2;
+        static int Qm, Qf;
+        static int INT1, INT2;
+
         public static void Main(string[] args) {
-            while (true) {
+            bool quit = false;
+            
+            while (!quit) {
                 try {
                     Console.Clear();
 
-                    // Getting numbers 
-                    Console.Write("Enter number 1: ");
-                    double number1 = Convert.ToDouble(Console.ReadLine());
-                    Console.Write("Enter number 2: ");
-                    double number2 = Convert.ToDouble(Console.ReadLine());
-
-                    // Getting format
-                    Console.WriteLine("Enter the Qm.f format");
-                    Console.Write("Enter m: ");
-                    int m = Convert.ToInt32(Console.ReadLine());
-                    Console.Write("Enter f: ");
-                    int f = Convert.ToInt32(Console.ReadLine());
-                    int bitCount = m + f;
+                    GetInputs();
 
                     Console.WriteLine();
 
-                    // Getting INTEGER format of the floating point number
-                    int INT1 = (int)Math.Round(number1 * Math.Pow(2, f));
-                    int INT2 = (int)Math.Round(number2 * Math.Pow(2, f));
-
-                    // Converting the INTEGERs to binary
-                    BitArray bits1 = new(new int[] { Math.Abs(INT1) });
-                    BitArray bits2 = new(new int[] { Math.Abs(INT2) });
-                    bool[] bitValues1 = bits1.Cast<bool>().Select(bit => bit).ToArray().Take(bitCount).ToArray();
-                    bool[] bitValues2 = bits2.Cast<bool>().Select(bit => bit).ToArray().Take(bitCount).ToArray();
-
-                    // Printing out HEX values
-                    Console.WriteLine($"Number 1\t\t= {HEX4(bitValues1, number1 < 0)}");
-                    Console.WriteLine($"Number 2\t\t= {HEX4(bitValues2, number2 < 0)}");
-
-                    // Adding and subtracting the values
-                    int add = INT1 + INT2;
-                    int sub = INT1 - INT2;
-
-                    // Converting the operations to binary
-                    BitArray addBits = new(new int[] { Math.Abs(add) });
-                    BitArray subBits = new(new int[] { Math.Abs(sub) });
-                    bool[] addBitValues = addBits.Cast<bool>().Select(bit => bit).ToArray().Take(bitCount).ToArray();
-                    bool[] subBitValues = subBits.Cast<bool>().Select(bit => bit).ToArray().Take(bitCount).ToArray();
-
-                    // Printing out DEC and HEX values
-                    double addReal = Round(add * Math.Pow(2, -f), 2);
-                    double subReal = Round(sub * Math.Pow(2, -f), 2);
-                    Console.WriteLine($"Number 1 + Number2\t= {HEX4(addBitValues, add < 0)}, {addReal}");
-                    Console.WriteLine($"Number 1 - Number2\t= {HEX4(subBitValues, sub < 0)}, {subReal}");
+                    // Printing wanted information
+                    PrintHexValues();
+                    PrintAdditionSubtraction();
                 } catch (Exception e) {
                     Console.WriteLine($"Error: {e.Message}");
                 }
 
                 // Stopping user input
                 Console.Write("\nPress any key to continue (q to quit)...");
-                if (Console.ReadKey().Key == ConsoleKey.Q) {
-                    break;
+                switch (Console.ReadKey().Key) {
+                    case ConsoleKey.Q: {
+                        quit = true;
+                    } break;
                 }
             }
         }
 
-        public static string HEX4(bool[] _bits, bool negative) {
+        private static string HEX4(bool[] _bits, bool negative) {
             string hex = "0x";
             bool[] bits = new bool[16];
 
@@ -119,8 +89,60 @@ namespace ZDS_Projekt2_Solver {
             return hex;
         }
 
-        public static double Round(double value, int precision) {
-            return Math.Round(value, precision, MidpointRounding.AwayFromZero);
+        private static void GetInputs() {
+            // Getting numbers 
+            Console.Write("Enter number 1: ");
+            number1 = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Enter number 2: ");
+            number2 = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine();
+
+            // Getting format
+            Console.WriteLine("Enter the Qm.f format");
+
+            Console.Write("Enter m: ");
+            Qm = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter f: ");
+            Qf = Convert.ToInt32(Console.ReadLine());
+
+            // Getting INTEGER format of the floating point number
+            INT1 = (int)Math.Round(number1 * Math.Pow(2, Qf));
+            INT2 = (int)Math.Round(number2 * Math.Pow(2, Qf));
+        }
+        
+        private static void PrintHexValues() {
+            int bitCount = Qm + Qf;
+
+            // Converting the INTEGERs to binary
+            BitArray bits1 = new(new int[] { Math.Abs(INT1) });
+            BitArray bits2 = new(new int[] { Math.Abs(INT2) });
+            bool[] bitValues1 = bits1.Cast<bool>().Select(bit => bit).ToArray().Take(bitCount).ToArray();
+            bool[] bitValues2 = bits2.Cast<bool>().Select(bit => bit).ToArray().Take(bitCount).ToArray();
+
+            // Printing out HEX values
+            Console.WriteLine($"Number 1\t\t= {HEX4(bitValues1, number1 < 0)}");
+            Console.WriteLine($"Number 2\t\t= {HEX4(bitValues2, number2 < 0)}");
+        }
+
+        private static void PrintAdditionSubtraction() {
+            int bitCount = Qm + Qf;
+
+            // Adding and subtracting the values
+            int add = INT1 + INT2;
+            int sub = INT1 - INT2;
+
+            // Converting the operations to binary
+            BitArray addBits = new(new int[] { Math.Abs(add) });
+            BitArray subBits = new(new int[] { Math.Abs(sub) });
+            bool[] addBitValues = addBits.Cast<bool>().Select(bit => bit).ToArray().Take(bitCount).ToArray();
+            bool[] subBitValues = subBits.Cast<bool>().Select(bit => bit).ToArray().Take(bitCount).ToArray();
+
+            // Printing out DEC and HEX values
+            double addReal = Math.Round(add * Math.Pow(2, -f), 2, MidpointRounding.AwayFromZero);
+            double subReal = Math.Round(sub * Math.Pow(2, -f), 2, MidpointRounding.AwayFromZero);
+            Console.WriteLine($"Number 1 + Number2\t= {HEX4(addBitValues, add < 0)}, {addReal}");
+            Console.WriteLine($"Number 1 - Number2\t= {HEX4(subBitValues, sub < 0)}, {subReal}");
         }
     }
 }
